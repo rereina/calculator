@@ -22,6 +22,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="吹き出し.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWw-Yx-0ak">
                                 <rect key="frame" x="9" y="11" width="208" height="153"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="格子柄.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jsW-SC-jIK">
+                                <rect key="frame" x="55" y="303" width="240" height="222"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jof-1X-U7j">
                                 <rect key="frame" x="92" y="77" width="49" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -151,9 +154,6 @@
                                     <action selector="select3" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bkD-J2-Nrl"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="格子柄.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jsW-SC-jIK">
-                                <rect key="frame" x="55" y="303" width="240" height="222"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
