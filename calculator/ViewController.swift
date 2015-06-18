@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         number = 0
         label.text = String(number)
     }
+    @IBAction func select0(){
+        number = number * 10 + 0
+        label.text = String (number)
+    }
     @IBAction func select1(){
         number = number * 10 + 1
         label.text = String(number)
@@ -78,11 +82,29 @@ class ViewController: UIViewController {
         number2 = number
         number = 0
     }
+    @IBAction func times(){
+        label.text = String(0)
+        operation = 3
+        number2 = number
+        number = 0
+    }
+    @IBAction func divide() {
+        label.text = String(0)
+        operation = 4
+        number2 = number
+        number = 0
+    }
     @IBAction func equal(){
         if operation == 1 {
             label.text = String(number2 + number)
         }else if operation == 2{
             label.text = String(number2 - number)
+        }else if operation == 3{
+            label.text = String(number2 * number)
+        }else {
+            label.text = String(number2 / number)
         }
     }
-}
+    
+    }
+
